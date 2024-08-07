@@ -1,0 +1,126 @@
+.tariff {
+    height: 100vh;
+}
+
+.tariff-header {
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 20px;
+    margin: 0px 0px 15px 0px;
+}
+
+.tariff-text-block {
+    width: 30%;
+}
+
+.tariff-text-main-title {
+    font-weight: 400;
+    font-size: 25px;
+    margin: 0px 0px 10px 0px;
+}
+
+.tariff-text-title {
+    margin: 0px 0px 10px 0px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.tariff-text-title-span {
+    background: linear-gradient(to right, rgb(255, 174, 0) 10%, rgb(255, 225, 0) 90%);
+    border-radius: 5px;
+    padding: 1px;
+    text-transform: uppercase;
+}
+
+.tariff-text {
+    margin: 0px 0px 5px 0px;
+}
+
+.tariff-cart {
+    background-color: rgba(0, 0, 0, 0.1);
+    width: 30%;
+    outline: 2px solid orange;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgb(174, 174, 174);
+}
+
+.tariff-cart-marker {
+    top: -35px;
+    left: 0;
+    position: relative;
+}
+
+.tariff-cart-marker-back {
+    position: absolute;
+    background-color: orange;
+    width: 50px;
+    height: 100px;
+    clip-path: polygon(0% 0%, 50% 0%, 75% 20%, 0% 20%);
+    top: 0;
+    left: 25px;
+}
+
+.tariff-cart-marker-front {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100px;
+    width: 50px;
+    box-shadow: 1px 1px 6px rgba(174, 174, 174, 0.5);
+    background: linear-gradient(to bottom, rgb(255, 174, 0) 10%, rgb(255, 225, 0) 90%);
+}
+
+.tariff-cart-title {
+    position: relative;
+    background-color: rgba(78, 78, 78, 0.5);
+    color: white;
+    font-weight: 400;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 15px 20px;
+}
+
+.tariff-cart-title-item {
+    margin: 0px;
+}
+
+.tariff-cart-img {
+    border-radius: 10px;
+}
+
+.tariff-cart-description {
+    display: flex;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+.tariff-cart-description-icon {
+    width: 20%;
+}
+
+.tariff-cart-description-item {
+    width: 80%;
+}
+
+.tariff-cart-about-title {
+    font-size: 25px;
+    padding: 10px 20px;
+    background: linear-gradient(to right, rgb(255, 174, 0) 10%, rgb(255, 225, 0) 90%);
+}
+
+.tariff-cart-about-title-item {
+    margin: 0;
+    font-weight: 400;
+}
+
+.tariff-cart-about-list {
+    list-style: "- ";
+    padding: 0px 30px;
+}
+
+.tariff-cart-about-telegram {
+    margin: 0;
+    font-size: 20px;
+    padding: 0px 20px 25px 20px;
+}

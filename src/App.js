@@ -7,6 +7,7 @@ import {
 import Navbar from './templates/Navbar';
 import Home from './pages/index';
 import About from "./pages/About";
+import Tariff from './pages/Tariff';
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
+        <Route path="/tariff" element={<Tariff />} />
       </Routes>
     </Router>
   )

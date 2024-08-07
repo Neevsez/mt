@@ -11,7 +11,7 @@ class GeneralSections {
                     <ul class="nav-list">
                         <li class="nav-item">
                             <button class="nav-button">
-                                <a href="##" class="nav-pages-link">Тарифы</a>
+                                <a href="/tariff" class="nav-pages-link">Тарифы</a>
                             </button>
                         </li>
                         <li class="nav-item">
