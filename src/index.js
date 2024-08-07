@@ -1,17 +1,41 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import Navbar from './templates/Navbar.js';
+import Footer from './templates/Footer.js';
+import First from './templates/main/First.js';
+import Separetor from './templates/main/Separetor.js';
+import About from './templates/main/About.js';
+import Why from './templates/main/Why.js';
+import Second from './templates/main/Second.js';
+import Review from './templates/main/Review.js';
+import Telbot from './templates/main/Telbot.js';
 import reportWebVitals from './reportWebVitals';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
+const nav = ReactDOM.createRoot(document.getElementById('nav'));
+nav.render(
   <React.StrictMode>
-    <App />
+    <Navbar />
   </React.StrictMode>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+const main = ReactDOM.createRoot(document.getElementById('main'));
+main.render(
+  <React.StrictMode>
+    <First />
+    <Separetor />
+    <About />
+    <Why />
+    <Second />
+    <Review />
+    <Telbot />
+  </React.StrictMode>
+);
+
+const footer = ReactDOM.createRoot(document.getElementById('footer'));
+footer.render(
+  <React.StrictMode>
+    <Footer />
+  </React.StrictMode>
+);
 reportWebVitals();

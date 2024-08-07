@@ -1,0 +1,106 @@
+.second-section-head-title {
+    font-size: 30px;
+    font-weight: 550;
+    text-align: center;  
+}
+
+.second-section-head-title-item {
+    margin: 0px auto;
+}
+
+.second-section-header {
+    display: flex;
+    margin: 25px auto;
+}
+
+.second-section-cart {
+    width: 33%;
+}
+
+.second-section-cart-first {
+    width: 34%;
+    padding: 20px;
+}
+.second-section-title {
+    font-size: 25px;
+    margin: 5px 0px;
+}
+
+.second-section-subtitle {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.second-section-cart-image {
+    border-radius: 15px;
+    width: 100%;
+    height: 100%;
+}
+
+.second-section-todolist {
+    border-radius: 15px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    /* background: linear-gradient(to right, rgb(255, 174, 0), rgb(255, 225, 0)); */
+    background-color: rgb(255, 208, 0);
+}
+
+.second-section-todolist-cart {
+    width: 20%;
+    border-radius: 25px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: white;
+    filter: drop-shadow(0px 2px 1px rgb(174, 174, 174));
+}
+
+.second-section-todolist-number {
+    width: 20px;
+    height: 20px;
+    background-color: rgb(166, 166, 166);
+    border-radius: 3px;
+    color: yellow;
+    text-align: center;
+    padding: 2px;
+    margin: 5px 0px;
+}
+
+.second-section-sep {
+    height: 2px;
+    width: 100%;
+    background-color: rgb(166, 166, 166);
+}
+
+.second-section-todolist-text {
+    margin: 10px 0px 0px 0px;
+    height: 50%;
+    text-align: center;
+    font-size: 15px;
+}
+
+.second-section-todolist-text-item {
+    margin: 0px;
+}
+
+.second-button-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-button {
+    font-weight: 600;
+    font-size: 15px;
+    border: none;
+    border-radius: 20px;
+    padding: 20px 40px;
+    background: linear-gradient(to right, rgb(255, 174, 0), rgb(255, 225, 0));
+}
+.second-button:hover {
+    transition: all 1s;
+    outline: 1px solid black;
+}

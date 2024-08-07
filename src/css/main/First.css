@@ -1,0 +1,44 @@
+.first {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.first-header {
+    width: 50%;
+}
+
+.first-leftside {
+    width: 90%;
+
+}
+
+.first-title {
+    font-weight: 550;
+    font-size: 35px;
+}
+
+.first-subtitle {
+    font-size: 25px;
+    font-weight: 300;
+    margin-bottom: 60px;
+}
+
+.first-button {
+    font-weight: 600;
+    font-size: 15px;
+    border: none;
+    border-radius: 20px;
+    padding: 20px 40px;
+    background: linear-gradient(to right, rgb(255, 174, 0), rgb(255, 225, 0));
+}
+.first-button:hover {
+    transition: all 1s;
+    outline: 1px solid black;
+}
+
+.first-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

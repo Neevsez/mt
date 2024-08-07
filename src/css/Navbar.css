@@ -1,0 +1,102 @@
+button {
+    padding: 0px;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar {
+    position: fixed;
+    left: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-logo {
+    width: 10%;
+}
+
+.nav-panel {
+    width: 50%;
+}
+
+.nav-list {
+    display: flex;
+    list-style: None;
+}
+
+.nav-item {
+    display: flex;
+    padding: 5px 15px;
+    margin: 5px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.nav-item:hover {
+    border-radius: 10px;
+    transition: all 0.5s;
+    background-color: orange;
+
+}
+
+.nav-button {
+    background-color: transparent;
+    border: none;
+    padding: 5px;
+    font-size: 14px;
+}
+
+.search {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-item {
+    padding: 5px;
+    width: 100%;
+    border: none;
+    outline: 1.5px solid rgb(127, 127, 127);
+    border-radius: 10px;
+    background-color: rgb(238, 238, 238);
+    margin-left: 10px;
+}
+
+.nav-authorization {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 30%;
+}
+
+.authorization {
+    font-size: 14px;
+    padding: 10px 40px;
+    text-align: center;
+}
+
+.authorization:hover {
+    border-radius: 10px;
+    transition: all 0.5s;
+    background-color: orange;
+}
+
+.registration {
+    border-radius: 10px;
+    font-size: 14px;
+    padding: 10px 20px;
+    text-align: center;
+    background-color: orange;
+}
+
+.registration:hover {
+    border-radius: 0px;
+    transition: all 0.5s;
+    background-color: white;
+    outline: 1px solid black;
+}

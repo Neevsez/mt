@@ -1,0 +1,117 @@
+.review {
+    padding: 0px 0px 40px 0px;
+    background-color: rgb(244, 191, 0);
+}
+
+.review-title {
+    text-align: center;
+}
+
+.review-title-item {
+    margin: 0px 0px 10px 0px;
+    padding: 10px;
+    font-size: 25px;
+}
+
+.review-slider {
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.review-cart {
+    display: flex;
+    background-color: white;
+    width: 400px;
+    border-radius: 20px;
+}
+
+.review-cart-header {
+    width: 50%;
+}
+
+.review-cart-image {
+    height: calc(100% - 30px);
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 6px rgb(174, 174, 174);
+}
+
+.review-cart-info {
+    padding: 15px;
+}
+
+.review-cart-name-item {
+    margin: 0px 0px 15px 0px;
+    text-align: start;
+    font-weight: 100;
+    text-shadow: 2px 2px 2px rgb(174, 174, 174);
+}
+
+.review-cart-sep {
+    height: 1px;
+    width: 70%;
+    background-color: rgb(174, 174, 174);
+}
+
+.review-cart-work-item {
+    margin: 15px 0px 0px 0px;
+}
+
+.review-cart-stat-turnover {
+    margin: 40px 0px 10px 0px;
+}
+
+.review-span {
+    font-weight: 550;
+}
+
+.review-cart-stat-text {
+    margin: 0px 0px 5px 0px;
+}
+
+.review-cart-stat-before {
+    width: 30%;
+    height: 3px;
+    background-color: gray;
+}
+
+.review-cart-stat-after-block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.review-cart-stat-text-berfore {
+    color: red;
+    font-size: 14px;
+}
+
+.review-cart-stat-after {
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(to right, gray 0%, gray 30%, rgb(0, 244, 0) 30%, rgb(0, 244, 0) 100%);
+}
+
+.review-cart-stat-text-after-up {
+    color: rgb(0, 244, 0);
+    font-size: 14px;
+}
+
+.review-cart-stat-text-after-down {
+    font-size: 14px;
+}
+
+.review-slider-button {
+    width: 50px;
+    height: 50px;
+    border-radius: 360px;
+    border: none;
+    font-size: 30px;
+    text-align: center;
+}
+
+.review-slider-button:hover {
+    outline: 1px solid black;
+    transition: all 0.5s;
+}

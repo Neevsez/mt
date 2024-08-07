@@ -1,0 +1,55 @@
+.telbot {
+    position: relative;
+    display: flex;
+    height: calc(275px + 130px + 50px);
+}
+
+.telbot-header {
+    width: calc(50% - 50px);
+    padding: 20px 70px;
+}
+
+.telbot-title-item {
+    font-size: 30px;
+    margin: 10px 0px;
+}
+
+.telbot-subtitle {
+    padding: 0px 200px 0px 0px;
+}
+
+.telbot-subtitle-link {
+    color: black;
+}
+
+.telbot-panel {
+    padding: 20px;
+    border-radius: 25px;
+    background: linear-gradient(to right, rgb(255, 174, 0), rgb(255, 238, 0));
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    top: 300px;
+    left: 200px;
+    box-shadow: 0px 2px 2px rgb(175, 175, 175);
+}
+
+.telbot-panel-side {
+    width: 30%;
+    margin: 0px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.telbot-panel-side-text {
+    text-align: center;
+}
+
+.telbot-panel-sep {
+    height: 50px;
+    margin: 20px 0px 0px 0px;
+    width: 3px;
+    background-color: rgb(116, 116, 116);
+}
