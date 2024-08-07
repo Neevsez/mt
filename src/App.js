@@ -1,9 +1,24 @@
-import logo from './logo.svg';
-import Sections from './Lib.js';
+import React from "react";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+} from "react-router-dom";
+import Navbar from './templates/Navbar';
+import Home from './pages/index';
+import About from "./pages/About";
 
-function Navbar () {
-  var obj = new Sections;
-  return obj.Navbar();
-}
+const App = () => {
+  return (
+    <Router>
+      <Navbar />
+      <Routes>
+        <Route exact path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+      </Routes>
+    </Router>
+  )
+};
 
-export default Navbar;
+
+export default App;

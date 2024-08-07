@@ -1,8 +1,8 @@
 import '../../css/main/Review.css';
-import Sections from '../../Lib';
+import MainSections from '../../lib/Lib_Main';
 
 function Review() {
-    var obj = new Sections();
+    var obj = new MainSections();
     return obj.Review();
 };
 

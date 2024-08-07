@@ -1,8 +1,8 @@
 import '../../css/main/Second.css';
-import Sections from '../../Lib';
+import MainSections from '../../lib/Lib_Main';
 
 function Second() {
-    var obj = new Sections();
+    var obj = new MainSections();
     return obj.Second();
 };
 

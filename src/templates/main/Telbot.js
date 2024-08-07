@@ -1,8 +1,8 @@
 import '../../css/main/Telbot.css';
-import Sections from '../../Lib';
+import MainSections from '../../lib/Lib_Main';
 
 function Telbot() {
-    var obj = new Sections();
+    var obj = new MainSections();
     return obj.Telbot();
 };
 

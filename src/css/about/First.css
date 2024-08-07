@@ -1,0 +1,39 @@
+.first {
+    display: flex;
+}
+
+.first-header {
+    width: 50%;
+}
+
+.first-header-leftside {
+    padding: 40px 60px 4px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.first-text {
+    font-size: 25px;
+    text-align: justify;
+}
+
+.first-sep {
+    width: 40%;
+    height: 2px;
+    background-color: orange;
+}
+
+.description {
+    display: flex;
+}
+
+.description-marker {
+    width: 2.5%;
+    background-color: orange;
+    clip-path: polygon(0% 25%, 50% 25%, 75% 50%, 50% 75%, 0% 75%, 0% 25%);
+}
+
+.description-text {
+    font-size: 30px;
+}

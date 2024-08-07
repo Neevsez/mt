@@ -1,0 +1,30 @@
+.fifth {
+    display: flex;
+    flex-direction: column;
+}
+
+.fifth-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.fifth-text {
+    font-weight: 400;
+    font-size: 30px;
+    text-align: justify;
+}
+
+.fifth-button {
+    font-weight: 600;
+    font-size: 15px;
+    border: none;
+    border-radius: 20px;
+    padding: 20px 40px;
+    background: linear-gradient(to right, rgb(255, 174, 0), rgb(255, 225, 0));
+}
+.fifth-button:hover {
+    transition: all 1s;
+    outline: 1px solid black;
+}

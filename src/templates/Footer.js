@@ -1,8 +1,8 @@
 import '../css/Footer.css';
-import Sections from '../Lib.js';
+import GeneralSections from '../lib/Lib_General'
 
-function Footer () {
-    var obj = new Sections();
+function Footer() {
+    var obj = new GeneralSections();
     return obj.Footer();
 }
 

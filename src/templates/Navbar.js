@@ -1,8 +1,8 @@
 import '../css/Navbar.css';
-import Sections from '../Lib.js';
+import GeneralSections from '../lib/Lib_General';
 
 function Navbar() {
-    var obj = new Sections();
+    var obj = new GeneralSections();
     return obj.Navbar();
 }
 

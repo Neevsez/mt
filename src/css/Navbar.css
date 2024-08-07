@@ -8,8 +8,6 @@ ul {
 }
 
 .navbar {
-    position: fixed;
-    left: 200px;
     display: flex;
     justify-content: space-between;
 }
@@ -19,11 +17,12 @@ ul {
 }
 
 .nav-panel {
-    width: 50%;
+    width: 60%;
 }
 
 .nav-list {
     display: flex;
+    justify-content: space-between;
     list-style: None;
 }
 
@@ -44,10 +43,15 @@ ul {
 }
 
 .nav-button {
+    font-size: 18px;
     background-color: transparent;
     border: none;
     padding: 5px;
-    font-size: 14px;
+}
+
+.nav-pages-link {
+    text-decoration: none;
+    color: black;
 }
 
 .search {

@@ -1,0 +1,18 @@
+.third {
+    display: flex;
+    align-items: center;
+}
+
+.third-header-leftside {
+    height: 200px;
+    width: 200px;
+    background: linear-gradient(225deg, orange, rgb(254, 218, 60));
+    clip-path: polygon(0% 0%, 0% 70%, 30% 70%, 30% 100%, 100% 100%, 100% 30%, 70% 30%, 70% 0%);
+    padding: 15px;
+}
+
+.third-header-text {
+    font-size: 25px;
+    text-align: justify;
+    padding: 10px 40px;
+}

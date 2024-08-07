@@ -1,0 +1,35 @@
+.second-title-head {
+    font-size: 30px;
+    margin: 0;
+    padding: 0px 50px;
+}
+
+.second-header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.second-header-cart {
+    width: 40%;
+    outline: 1px solid rgb(255, 174, 0);
+    border-radius: 20px;
+    margin: 15px;
+}
+
+.second-title {
+    padding: 5px;
+    border-radius: 20px 20px 0px 0px;
+    background: linear-gradient(to left, rgb(255, 237, 101), rgb(255, 200, 0));
+}
+
+.second-title-icon {
+    display: inline-block;
+}
+
+.second-title-item {
+    display: inline-block;
+}
+
+.second-cart-text {
+    padding: 5px 10px 5px 40px;
+}
